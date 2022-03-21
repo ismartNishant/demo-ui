@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Aladin&family=Kaushan+Script&family=Merienda:wght@400;700&family=Mitr:wght@300;400&family=Mochiy+Pop+P+One&family=Monoton&family=Mukta:wght@400;500&family=Nunito+Sans:wght@400;600&family=Nunito:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&family=Tourney:wght@200;300;400;500;600;700;800&family=Varela+Round&display=swap");
+/* font-family: 'Aladin', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Merienda', cursive;
+font-family: 'Mitr', sans-serif;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Monoton', cursive;
+font-family: 'Mukta', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Tourney', cursive;
+font-family: 'Varela Round', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+
+  --maincolor: #870cb8;
+ 
+}
+
+body {
+  background: #ffc107 !important;
+}
+
+.out-box {
+  background: #221f1f;
+  padding: 4rem;
+  width: 75rem;
+  height: 40rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.breadcrumb li {
+  color: #666;
+  transition: all 0.5s ease-in-out;
+}
+
+.breadcrumb li:hover {
+  color: #ffc107;
+  cursor: pointer;
+}
+
+.my-btns {
+  justify-content: space-between;
+}
+
+.card-info {
+  padding: 3rem 0rem;
+}
+
+.card {
+  background: transparent !important;
+  border: none !important;
+  color: #fff;
+}
+
+.col-md-8 {
+  padding: 1.5rem 0rem 1.5rem 4rem !important;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: .5rem 1rem !important;
+  font-size: 1.2rem !important;
+}
+
+
+.bx-left-arrow-alt,
+.bx-right-arrow-alt {
+  font-size: 1.5rem;
+}
+
+.bxs-star,
+.bx-star {
+  font-size: 1.5rem;
+  color: #ffc107;
+}
+
+.bx-heart {
+  font-size: 2rem;
+}
+
+.bx-heart:hover {
+  color: #e23b64;
+}
+
+
+@media (max-width:1200px) {
+  .out-box {
+    padding: 3rem;
+    width: 55rem;
+    height: 35rem;
+  }
+
+  .card-body {
+    padding: 0rem !important;
+  }
+}
+
+@media (max-width:800px) {
+  .out-box {
+    padding: 2rem;
+    width: 46rem;
+    height: 31rem;
+  }
+
+  .col-md-4 {
+    width: 36.333333% !important;
+  }
+
+  .col-md-8 {
+    padding: 1rem 0rem 1rem 2rem !important;
+    width: 63.333333% !important;
+  }
+
+  .btn {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width:600px) {
+  .out-box {
+    padding: 1rem;
+    width: 25rem;
+    height: 40rem;
+  }
+
+  .row {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col-md-4 {
+    margin: 0 auto;
+    width: 62.333333% !important;
+  }
+
+  .col-md-8 {
+    width: 80.333333% !important;
+    padding: 2rem 0rem !important;
+  }
+
+  .card-title,
+  .bx-heart {
+    font-size: 1.5rem !important;
+  }
+
+  h5 {
+    font-size: 1.03rem !important;
+    padding: .5rem 0rem;
+    text-align: center;
+  }
+
+  .stars {
+    justify-content: center !important;
+  }
+
+  .bxs-star,
+  .bx-star {
+    font-size: 1.2rem;
+  }
+
+  .card-info {
+    padding: 1rem 0rem 2rem 0rem;
+  }
+
+  .btn {
+    padding: 0.4rem 0.8rem !important;
+    font-size: .8rem !important;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .out-box {
+    padding: 2rem;
+    height: 100vh;
+}
+body{
+  background: #221f1f !important;
+}
+.col-md-4 {
+  width: 70.333333% !important;
+}
+  
+}
